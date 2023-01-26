@@ -18,13 +18,22 @@ const Home: NextPage = () => {
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
         <div className="text-7xl text-white">Mohammed Fayaz Salim</div>
-        <Link
-          href="https://twitter.com/fayazsalimmoha"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <Image src={"twitter.svg"} alt="twitter" width={96} height={96} />
-        </Link>
+        <div className="flex">
+          <Link
+            href="https://twitter.com/fayazsalimmoha"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <Image src={"twitter.svg"} alt="twitter" width={96} height={96} />
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/mohammedfayazsalim/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <Image src={"linkedin.svg"} alt="linkedin" width={96} height={96} />
+          </Link>
+        </div>
       </main>
     </>
   );
